@@ -1,76 +1,76 @@
 # Instagram Posts Dataset Sample
 
-<h2>A sample dataset of 7,730 records</h2>
+<h2>Ein Beispiel-Datensatz mit 7.730 Datensätzen</h2>
 
-<a href="https://brightdata.com">
+<a href="https://brightdata.de">
     <img src="https://github.com/luminati-io/Instagram-Posts-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
 </a>
 
-This **Instagram Posts Dataset Sample** includes **7,730 records** and was extracted using the **Bright Data API**.
+Dieses **Instagram Posts Dataset Sample** umfasst **7.730 Datensätze** und wurde mit der **Bright Data API** extrahiert.
 
 ## Data Points
 
 | Field Name | Description |
 |------------|-------------|
-| `url` | The direct link to the Instagram post. |
-| `user_posted` | The username of the account that posted the content. |
-| `description` | The caption text accompanying the Instagram post. |
-| `hashtags` | List of hashtags used in the post, aiding in content discovery. |
-| `num_comments` | The total number of comments on the post. |
-| `date_posted` | The timestamp when the post was published. |
-| `likes` | The count of likes the post has received. |
-| `photos` | URLs to the photos included in the post. |
-| `videos` | URLs to the videos included in the post. |
-| `location` | Geographical location tagged in the post. |
-| `latest_comments` | Recent comments made on the post. |
-| `post_id` | A unique identifier for the Instagram post. |
-| `discovery_input` | Keywords or inputs used to discover the post. |
-| `has_handshake` | Indicates if the post is a part of a branded content partnership. |
-| `shortcode` | A shortened unique code for the post URL. |
-| `content_type` | The format of the post, e.g., photo, video, or carousel. |
-| `pk` | Primary key identifier for internal data processing. |
-| `content_id` | A system-generated ID for the content. |
-| `engagement_score_view` | A calculated metric representing the post's engagement. |
-| `thumbnail` | URL of the post's thumbnail image. |
-| `video_view_count` | The number of times the video has been viewed. |
-| `product_type` | Classification of the post, such as standard or branded content. |
-| `coauthor_producers` | Usernames of co-authors or producers associated with the post. |
-| `tagged_users` | List of users tagged in the post. |
-| `video_play_count` | The number of times the video has been played. |
-| `followers` | The number of followers the posting account has. |
-| `posts_count` | Total number of posts made by the user. |
-| `profile_image_link` | URL to the user's profile image. |
-| `is_verified` | Indicates if the user's account is verified by Instagram. |
-| `is_paid_partnership` | Denotes if the post is a paid partnership. |
-| `partnership_details` | Details of the partnership or collaboration. |
-| `user_posted_id` | Unique identifier for the user who posted the content. |
-| `post_content` | The main content of the post, including text and media. |
-| `audio` | Details about the audio used in the post. |
-| `profile_url` | URL to the user's Instagram profile. |
-| `videos_duration` | Length of video content in the post. |
-| `images` | Array of images related to the post. |
-| `alt_text` | Alternative text descriptions for the post's images. |
-| `photos_number` | The number of photos included in the post. |
-| `audio_url` | Link to audio used in the post. |
+| `url` | Der direkte Link zum Instagram-Post. |
+| `user_posted` | Der Benutzername des Accounts, der den Inhalt gepostet hat. |
+| `description` | Der Begleittext (Caption) zum Instagram-Post. |
+| `hashtags` | Liste der im Post verwendeten Hashtags, die die Auffindbarkeit von Inhalten unterstützt. |
+| `num_comments` | Die Gesamtzahl der Kommentare zum Post. |
+| `date_posted` | Der Zeitstempel, wann der Post veröffentlicht wurde. |
+| `likes` | Die Anzahl der Likes, die der Post erhalten hat. |
+| `photos` | URLs zu den im Post enthaltenen Fotos. |
+| `videos` | URLs zu den im Post enthaltenen Videos. |
+| `location` | Im Post markierter geografischer Standort. |
+| `latest_comments` | Aktuelle Kommentare zum Post. |
+| `post_id` | Eine eindeutige Kennung für den Instagram-Post. |
+| `discovery_input` | Keywords oder Eingaben, die verwendet wurden, um den Post zu finden. |
+| `has_handshake` | Zeigt an, ob der Post Teil einer Markencontent-Partnerschaft ist. |
+| `shortcode` | Ein verkürzter eindeutiger Code für die Post-URL. |
+| `content_type` | Das Format des Posts, z. B. Foto, Video oder Karussell. |
+| `pk` | Primärschlüssel-Kennung für die interne Datenverarbeitung. |
+| `content_id` | Eine systemgenerierte ID für den Inhalt. |
+| `engagement_score_view` | Eine berechnete Kennzahl, die das Engagement des Posts darstellt. |
+| `thumbnail` | URL des Vorschaubildes (Thumbnail) des Posts. |
+| `video_view_count` | Die Anzahl, wie oft das Video angesehen wurde. |
+| `product_type` | Klassifizierung des Posts, z. B. Standard oder Branded Content. |
+| `coauthor_producers` | Benutzernamen von Co-Autoren oder Produzenten, die mit dem Post verbunden sind. |
+| `tagged_users` | Liste der im Post markierten Nutzer. |
+| `video_play_count` | Die Anzahl, wie oft das Video abgespielt wurde. |
+| `followers` | Die Anzahl der Follower, die der postende Account hat. |
+| `posts_count` | Gesamtzahl der Posts, die der Nutzer erstellt hat. |
+| `profile_image_link` | URL zum Profilbild des Nutzers. |
+| `is_verified` | Zeigt an, ob das Nutzerkonto von Instagram verifiziert ist. |
+| `is_paid_partnership` | Kennzeichnet, ob der Post eine bezahlte Partnerschaft ist. |
+| `partnership_details` | Details zur Partnerschaft oder Zusammenarbeit. |
+| `user_posted_id` | Eindeutige Kennung für den Nutzer, der den Inhalt gepostet hat. |
+| `post_content` | Der Hauptinhalt des Posts, einschließlich Text und Medien. |
+| `audio` | Details zum im Post verwendeten Audio. |
+| `profile_url` | URL zum Instagram-Profil des Nutzers. |
+| `videos_duration` | Länge der Videoinhalte im Post. |
+| `images` | Array von Bildern, die mit dem Post verbunden sind. |
+| `alt_text` | Alternative Textbeschreibungen für die Bilder des Posts. |
+| `photos_number` | Die Anzahl der im Post enthaltenen Fotos. |
+| `audio_url` | Link zum im Post verwendeten Audio. |
 
 
 ## Use Cases
 
 ### 1. Social Media Trend Analysis
-Analyze post engagement metrics to identify trending content and user preferences on Instagram.
+Analysieren Sie Engagement-Kennzahlen von Posts, um Trendinhalte und Nutzerpräferenzen auf Instagram zu identifizieren.
 
 ### 2. Influencer Marketing Strategy
-Utilize user and engagement data to select the most impactful influencers for brand collaborations.
+Nutzen Sie Nutzer- und Engagement-Daten, um die wirkungsvollsten Influencer für Markenkooperationen auszuwählen.
 
 ### 3. Competitive Analysis
-Monitor competitors' engagement and content strategies to refine your own social media approach.
+Überwachen Sie Engagement und Content-Strategien von Wettbewerbern, um Ihren eigenen Social-Media-Ansatz zu verfeinern.
 
 
 
 ## File Formats
 
-The dataset is available in multiple formats:
-- **CSV** (included in this sample)
+Der Datensatz ist in mehreren Formaten verfügbar:
+- **CSV** (in diesem Sample enthalten)
 - **JSON**
 - **NDJSON**
 - **JSON Lines**
@@ -90,8 +90,8 @@ The dataset is available in multiple formats:
 
 ## Update Frequency
 
-Datasets can be updated on various schedules:
-- **Once** (one-time delivery)
+Datensätze können nach verschiedenen Zeitplänen aktualisiert werden:
+- **Once** (einmalige Bereitstellung)
 - **Daily**
 - **Weekly**
 - **Monthly**
@@ -100,14 +100,14 @@ Datasets can be updated on various schedules:
 
 ## Data Enrichment
 
-Enhance your dataset with additional data points based on your specific requirements. Contact us for custom enrichment options.
+Erweitern Sie Ihren Datensatz um zusätzliche Datenpunkte basierend auf Ihren spezifischen Anforderungen. Kontaktieren Sie uns für benutzerdefinierte Enrichment-Optionen.
 
-**[Get the full Instagram Posts dataset](https://brightdata.com/products/datasets/instagram/posts)**
+**[Holen Sie sich den vollständigen Instagram Posts dataset](https://brightdata.de/products/datasets/instagram/posts)**
 
 ---
 
 ## Free Access for Researchers and NGOs
 
-The Bright Initiative offers free access to **[Web Scraper APIs](https://brightdata.com/products/web-scraper)** and **[ready-to-use datasets](https://brightdata.com/products/datasets)** for academic researchers, NGOs, and NPOs working on environmental and social causes. 
+Die Bright Initiative bietet akademischen Forschern, NGOs und NPOs, die an Umwelt- und Sozialthemen arbeiten, kostenlosen Zugang zu **[Web Scraper APIs](https://brightdata.de/products/web-scraper)** und **[einsatzbereiten Datensätzen](https://brightdata.de/products/datasets)**. 
 
-Apply for free access at [brightinitiative.com](https://brightinitiative.com).
+Beantragen Sie kostenlosen Zugang unter [brightinitiative.com](https://brightinitiative.com).

@@ -3,7 +3,7 @@
 <h2>Ein Beispiel-Datensatz mit 7.730 Datensätzen</h2>
 
 <a href="https://brightdata.de">
-    <img src="https://github.com/luminati-io/Instagram-Posts-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
+    <img src="https://github.com/bright-data-de/Instagram-Posts-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
 </a>
 
 Dieses **Instagram Posts Dataset Sample** umfasst **7.730 Datensätze** und wurde mit der **Bright Data API** extrahiert.
